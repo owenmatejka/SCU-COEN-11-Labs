@@ -1,2 +1,2 @@
-# People Book
+# People List
  This program has some similarities and reused code from the previous lab, but is meant for storing a person's life info instead of contact information. It displays name, age, and status. Status is a union that will display school name, salary, or years since retirement depending on the profile user's age. Similar to the phone book labs, you can delete any user and display them all at once.
