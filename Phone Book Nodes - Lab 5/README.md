@@ -1,0 +1,2 @@
+# Phone Book Nodes
+ This is a basic phone book that allows a user to create, delete, and view contacts using the command line. This is a modified version of Lab #3 in that it has the same basic functions but uses dynamic memory allocation and linked lists. Additionally, names are sorted in alphabetical order. There are still some limitations, including name and number length, but there is no longer a set limit for maximum number of contacts.
