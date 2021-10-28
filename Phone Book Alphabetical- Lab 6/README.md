@@ -1,0 +1,2 @@
+# Phone Book Alphabetical
+ This is a basic phone book that allows a user to create, delete, and view contacts using the command line. This is a modified version of Lab #5 in that it has the same basic functions but uses an array of linked lists to store names by letter group. As such, there is an additional command added in which the user can input a letter and it will only fetch contacts with that letter. The same limitations as Lab #5 apply.
