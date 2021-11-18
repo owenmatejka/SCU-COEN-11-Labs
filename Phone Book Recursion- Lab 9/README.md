@@ -1,0 +1,2 @@
+# Phone Book Recursion
+ This is a basic phone book that allows a user to create, delete, and view contacts using the command line. This is a modified version of Lab #8 where the code is split into multiple files for neatness. Additionally, there is now a doubly linked list (not required) and recursion is used to reverse it when printing the contacts. Finally, a makefile has been added to allow the easier compilation of code.
