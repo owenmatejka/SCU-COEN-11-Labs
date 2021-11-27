@@ -265,18 +265,20 @@ void deleteContact(){
     if (toDelete == NULL) {
         printf("That contact name does not exist in the phone book. Please try again!\n\n");
         return;
-    } else if (toDelete == headNodes[indexNum]) {
+    } else if (toDelete == headNodes[indexNum]) { // Deletes the head node and reassigns
         if (headNodes[indexNum] -> next != NULL) {
             headNodes[indexNum] = headNodes[indexNum] -> next;
+            headNodes[indexNum] -> prev = NULL;
             free(toDelete);
         } else {
             free(toDelete);
             headNodes[indexNum] = NULL;
         }
-    } else if (toDelete -> next != NULL) {
+    } else if (toDelete -> next != NULL) { // Deletes a middle node and reassigns prev and next values for the neighbors
         prevContact -> next = toDelete -> next;
+        toDelete -> next -> prev = prevContact;
         free(toDelete);
-    } else {
+    } else { // Deletes the tail
         prevContact -> next = NULL;
         free(toDelete);
     }
