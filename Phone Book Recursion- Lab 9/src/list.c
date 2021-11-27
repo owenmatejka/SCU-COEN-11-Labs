@@ -270,7 +270,7 @@ void deleteContact(){
             headNodes[indexNum] = headNodes[indexNum] -> next;
             headNodes[indexNum] -> prev = NULL;
             free(toDelete);
-        } else {
+        } else { // Deletes head node and marks list as empty
             free(toDelete);
             headNodes[indexNum] = NULL;
         }
