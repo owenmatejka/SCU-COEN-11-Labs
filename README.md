@@ -13,4 +13,5 @@
  Lab #6 Phone Book Alphabetical (10/28/2021)  
  Lab #7 Phone Book File I/O (11/4/2021)  
  Lab #8 Phone Book Binary (11/11/2021)  
- Lab #9 Phone Book Recursion (11/18/2021)
+ Lab #9 Phone Book Recursion (11/18/2021)  
+ Lab #10 Phone Book Threads (12/2/2021)
